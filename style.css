@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'MaruBuri-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+*{ margin: 0; padding: 0;font-family: 'MaruBuri-Regular';}
+ul,li{ list-style: none;}
+img{ border: 0; padding:0;}
+
+#employee_wrap{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url(img/background.jpg) no-repeat;
+  background-size: cover;
+}
+#employee_box{
+  width: 400px;
+  height: 450px;
+  position: absolute;
+  left: 50%; transform: translateX(-50%);
+  top: 50vh; margin-top: -225px;
+}
+#main_box{
+  position: relative;
+  width: 400px; height: 200px;
+}
+#main_box ul{
+  position: absolute;
+  left: 50%; transform: translateX(-50%);
+}
+#main_text{
+  font-size: 32px;
+  width: 100%;
+  text-align: center;
+  color: #faaa19;
+}
+#input_box{
+  position: relative;
+  width: 400px; height: auto;
+}
+#input_box ul{
+  position: absolute;
+  left: 50%; transform: translateX(-50%);
+}
+input{
+  width: 350px; height: 50px;
+  border-radius: 30px;
+   overflow: hidden;
+  margin-top:10px;
+}
+.textStyle{ text-indent: 30px; border:none;}
+#submit-btn{
+  background: transparent;
+  border:1px solid #fff;
+  color: #fff; cursor: pointer;
+}
